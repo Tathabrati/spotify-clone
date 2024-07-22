@@ -13,17 +13,17 @@ let shuffle = document.getElementById('shuffle');
 let isShuffle = false;
 
 let songs = [
-     { songName: "Aasa Kooda - from [Think Indie]", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "Illuminati - sushin shyam", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "Play Date - Melanie Martinez", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "Tomake - Shreya Ghoshal", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "Heart Attack - Demi Lovato", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Katchi Sera - from [Think Indie]", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/6.mp3", coverPath: "covers/6.jpg" },
-    { songName: "Ailo Uma barite - Antara Mitra", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/7.mp3", coverPath: "covers/7.jpg" },
-    { songName: "Teri Baaton Me Aisa Uljha Jiya", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/8.mp3", coverPath: "covers/8.jpg" },
-    { songName: "Kaavaalaa - Anirudh Ravichander", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/9.mp3", coverPath: "covers/9.jpg" },
-    { songName: "Arabic Kuthu - Halamithi Habibo", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/10.mp3", coverPath: "covers/10.jpg" },
-    { songName: "Jiya Tui Chara - Arijit Singh", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/11.mp3", coverPath: "covers/11.jpg" }
+     { songName: "Aasa Kooda - from [Think Indie]", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/1.mp3", coverPath: "1.jpg" },
+    { songName: "Illuminati - sushin shyam", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/2.mp3", coverPath: "2.jpg" },
+    { songName: "Play Date - Melanie Martinez", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/3.mp3", coverPath: "3.jpg" },
+    { songName: "Tomake - Shreya Ghoshal", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/4.mp3", coverPath: "4.jpg" },
+    { songName: "Heart Attack - Demi Lovato", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/5.mp3", coverPath: "5.jpg" },
+    { songName: "Katchi Sera - from [Think Indie]", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/6.mp3", coverPath: "6.jpg" },
+    { songName: "Ailo Uma barite - Antara Mitra", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/7.mp3", coverPath: "7.jpg" },
+    { songName: "Teri Baaton Me Aisa Uljha Jiya", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/8.mp3", coverPath: "8.jpg" },
+    { songName: "Kaavaalaa - Anirudh Ravichander", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/9.mp3", coverPath: "9.jpg" },
+    { songName: "Arabic Kuthu - Halamithi Habibo", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/10.mp3", coverPath: "10.jpg" },
+    { songName: "Jiya Tui Chara - Arijit Singh", filePath: "https://github.com/Tathabrati/spotify-clone/releases/download/v1.0/11.mp3", coverPath: "11.jpg" }
 ];
 
 // Update song items with the song details
